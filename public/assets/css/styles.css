@@ -1,0 +1,161 @@
+*{
+ box-sizing:border-box;
+ margin:0;
+ padding:0;
+}
+body{
+    color: #640000;
+    background-color: #ece6e2;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16pt;
+}
+
+h3{
+    font-size: 60pt !important;
+    letter-spacing: 15pt;
+    font-family: 'Rouge Script', cursive;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+.header{
+    margin: 20px auto;
+    text-align: center;
+}
+.header img{
+    width: 400px;
+}
+/*----- Cuenta Regresiva ----- */
+#cuenta{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.faltan{
+    
+    font-size: 50px
+}
+.cuenta-div{
+    margin: 90px 0; 
+}
+.simply-section{
+    background: #D49377;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simply-amount{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+}
+.ubicaciones{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    background-color: #EACBAE;
+    margin: 10px auto;
+}
+.ubicaciones div{
+    margin: 10px auto;
+    text-align: left;
+    gap: 25px;
+}
+.ubicaciones div p{
+    margin: 10px 0;
+}
+
+.ubicaciones iframe{
+    border-radius: 5px;
+    width: auto;
+}
+
+.familiares{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    color:#640000;
+    padding: 20px;
+}
+.familiares-borde{
+    border-style: solid;
+    border-color: #640000;
+    border-radius: 15px;
+    padding: 20px;
+    width:  30%;
+    text-align: center;
+}
+h2 {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 1.424rem 0 1.424rem 0 !important;
+}
+
+/* ? ----- Corousel ----- */
+
+.carousel{
+    min-height: 500px;
+    width: auto;
+}
+.carousel .carousel-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none ;
+    width: 300px;
+    height: 300px;
+}
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+/* ? ----- Footer ----- */
+.footer{
+    background: #EACBAE;
+    color: #000000;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 700px){
+    .ubicaciones {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 500px){ 
+    .header h3{
+        font-size: 35pt;
+    }  
+    .header img{
+        width: 60%;
+    }
+    .simply-amount{
+        display: block;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .simply-word{
+        font-size: 15px;
+    }
+    
+}
+
+/*=============================================*/
