@@ -15,14 +15,9 @@ h3{
     letter-spacing: 15pt;
     font-family: 'Rouge Script', cursive;
 }
-.contenedor{
-    width: 100%;
-    margin: auto;
-}
 
-.header{
-    margin: 20px auto;
-    text-align: center;
+.Rouge-text{
+    font-family: 'Rouge Script', cursive;
 }
 .header img{
     width: 400px;
@@ -41,58 +36,13 @@ h3{
 .cuenta-div{
     margin: 90px 0; 
 }
-.simply-section{
-    background: #D49377;
-    width: 100px;
-    height: 100px;
-    margin: 0 20px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .simply-amount{
     display: block;
     font-size: 50px;
     font-weight: 700;
 }
-.ubicaciones{
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    background-color: #EACBAE;
-    margin: 10px auto;
-}
-.ubicaciones div{
-    margin: 10px auto;
-    text-align: left;
-    gap: 25px;
-}
-.ubicaciones div p{
-    margin: 10px 0;
-}
 
-.ubicaciones iframe{
-    border-radius: 5px;
-    width: auto;
-}
-
-.familiares{
-    display: flex;
-    justify-content: center;
-    gap:70px;
-    color:#640000;
-    padding: 20px;
-}
-.familiares-borde{
-    border-style: solid;
-    border-color: #640000;
-    border-radius: 15px;
-    padding: 20px;
-    width:  30%;
-    text-align: center;
-}
 h2 {
     font-size: 3.56rem;
     line-height: 110%;
@@ -133,19 +83,193 @@ h2 {
     text-align: center;
     padding-bottom: 20px;
 }
+@media (min-width: 701px){
+    .simply-section{
+    background: #D49377;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .contenedor{
+    width: 100%;
+    margin: auto;
+    }
+    .mis-xv{
+        font-size: 90pt;
+    }
+    .bala-image{
+        width: 500px;
+        position: absolute;
+        z-index: -1;
+        margin-top: -3%;
+    }
+    .bala-div{
+        height: 10px;
+        display: flex;
+        justify-content: end;
+    }
+    .familiares{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    color:#640000;
+    padding: 20px;
+    }
+    .familiares-borde{
+        border-style: solid;
+        border-color: #640000;
+        border-radius: 15px;
+        padding: 20px;
+        width:  30%;
+        text-align: center;
+    }
+    .header{
+        margin: 20px auto;
+        text-align: center;
+    }
+    .ubicaciones{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    background-color: #EACBAE;
+    margin: 10px auto;
+    }
+    .ubicaciones div{
+        margin: 10px auto;
+        text-align: left;
+        gap: 25px;
+    }
+    .ubicaciones div p{
+        margin: 10px 0;
+    }
+    
+    .ubicaciones iframe{
+        border-radius: 5px;
+        width: auto;
+    }
+}
 
-
-@media (max-width: 700px){
+@media (max-width: 700px) and (min-width: 501px){
+    .simply-section{
+    background: #D49377;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .contenedor{
+    width: 100%;
+    margin: auto;
+    }
+    .mis-xv{
+        font-size: 90pt;
+    }
     .ubicaciones {
         grid-template-columns: 1fr;
     }
+    .bala-image{
+      display: none;
+    }
+    .bala-image-movil{
+        width: 500px;
+        position: absolute;
+        z-index: -1;
+    }
+    .bala-div{
+        height: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .familiares-borde {
+    border-style: solid;
+    border-color: #640000;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    }
+    .familiares {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: #640000;
+    padding: 20px;
+    flex-direction: column;
+    margin: 0 100px;
+    }
+    .header{
+    margin: 20px auto;
+    margin-top: 300px;
+    text-align: center;
+    }
+    .ubicaciones{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    background-color: #EACBAE;
+    margin: 10px auto;
+    }
+    .ubicaciones div{
+        margin: 10px auto;
+        text-align: left;
+        gap: 25px;
+    }
+    .ubicaciones div p{
+        margin: 10px 0;
+    }
+    
+    .ubicaciones iframe{
+        border-radius: 5px;
+        width: auto;
+    }
 }
 @media (max-width: 500px){ 
+    .simply-section{
+    background: #D49377;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .contenedor{
+    width: 100%;
+    margin: auto;
+    }
+    .mis-xv{
+        font-size: 55pt;
+        text-shadow: -1px 0 #640000;
+    }
+    .header{
+    margin: 20px auto;
+    margin-top: 300px;
+    text-align: center;
+    }
+    .bala-image-movil{
+        width: 310px;
+        position: absolute;
+        z-index: -1;
+    }
+    .bala-div{
+        height: 10px;
+        display: flex;
+        justify-content: center;
+    }
     .header h3{
-        font-size: 35pt;
+        font-size: 35pt !important;
     }  
     .header img{
-        width: 60%;
+        width: 75%;
     }
     .simply-amount{
         display: block;
@@ -154,8 +278,48 @@ h2 {
     }
     .simply-word{
         font-size: 15px;
+    } 
+    .bala-image{
+      display: none;
+    }  
+    .familiares-borde {
+    border-style: solid;
+    border-color: #640000;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    }
+    .familiares {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: #640000;
+    padding: 20px;
+    flex-direction: column;
+    }
+    .ubicaciones{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #EACBAE;
+    margin: 10px auto;
+    }
+    .ubicaciones div{
+        margin: 10px auto;
+        text-align: left;
+        gap: 25px;
+    }
+    .ubicaciones div p{
+        margin: 10px 0;
     }
     
+    .ubicaciones iframe{
+        border-radius: 5px;
+        width: auto;
+    }
 }
+
+
 
 /*=============================================*/

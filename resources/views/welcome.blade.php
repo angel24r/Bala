@@ -22,9 +22,13 @@
 
 </head>
 <body>
+    <div class="bala-div">
+        <img class="bala-image" src="{{asset('assets/img/bala-web.png')}}">
+        <img class="bala-image-movil" src="{{asset('assets/img/bala-movil.png')}}">
+    </div>
     <div class="contenedor">
         <div class="header">
-            <h3>Mis XV años</h3>
+            <p class="Rouge-text mis-xv">Mis XV años</p>
             <img src="{{asset('assets/img/valeria.png')}}">
             <div class="cuenta-div">
                 <p class="faltan">Faltan</p>
