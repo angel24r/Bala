@@ -43,14 +43,7 @@ h3{
     font-weight: 700;
 }
 
-h2 {
-    font-size: 3.56rem;
-    line-height: 110%;
-    margin: 1.424rem 0 1.424rem 0 !important;
-}
-
 /* ? ----- Corousel ----- */
-
 .carousel{
     min-height: 500px;
     width: auto;
@@ -73,6 +66,18 @@ h2 {
     left: 0;
     z-index: -1;
     border-radius: 15px;
+ }
+ .carousel-item h2{
+    color: #ece6e2;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 110%;
+    margin: 1.424rem 0 1.424rem 0 !important;
+}
+.palabras{
+    width: 90%;
+    text-align: center;
+    margin: 40px auto ;
 }
 /* ? ----- Footer ----- */
 .footer{
@@ -132,12 +137,12 @@ h2 {
         text-align: center;
     }
     .ubicaciones{
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    background-color: #EACBAE;
-    margin: 10px auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        background-color: #EACBAE;
+        margin: 10px auto;
     }
     .ubicaciones div{
         margin: 10px auto;
@@ -151,6 +156,9 @@ h2 {
     .ubicaciones iframe{
         border-radius: 5px;
         width: auto;
+    }
+    .palabras{
+        font-size: 20pt;
     }
 }
 

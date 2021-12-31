@@ -53,59 +53,119 @@
             <div class="col s12">
                 <div class="carousel center-align">
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/20160818_133344.jpg')}}">
+                        <h2>2007</h2>
+                        <img src="{{asset('assets/img/bala/1.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2007</h2>
+                        <img src="{{asset('assets/img/bala/2.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2008</h2>
+                        <img src="{{asset('assets/img/bala/3.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2008</h2>
+                        <img src="{{asset('assets/img/bala/4.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2008</h2>
+                        <img src="{{asset('assets/img/bala/5.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2008</h2>
+                        <img src="{{asset('assets/img/bala/6.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2008</h2>
+                        <img src="{{asset('assets/img/bala/7.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2010</h2>
+                        <img src="{{asset('assets/img/bala/8.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2010</h2>
+                        <img src="{{asset('assets/img/bala/9.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2011</h2>
+                        <img src="{{asset('assets/img/bala/10.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2012</h2>
+                        <img src="{{asset('assets/img/bala/11.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2012</h2>
+                        <img src="{{asset('assets/img/bala/12.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2013</h2>
+                        <img src="{{asset('assets/img/bala/13.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2013</h2>
+                        <img src="{{asset('assets/img/bala/14.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2013</h2>
+                        <img src="{{asset('assets/img/bala/15.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2014</h2>
+                        <img src="{{asset('assets/img/bala/16.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2014</h2>
+                        <img src="{{asset('assets/img/bala/17.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2015</h2>
+                        <img src="{{asset('assets/img/bala/18.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2015</h2>
+                        <img src="{{asset('assets/img/bala/19.jpg')}}">
+                    </div>
+                    <div class="carousel-item">
+                        <h2>2016</h2>
+                        <img src="{{asset('assets/img/bala/20.jpg')}}">
                     </div>
                     <div class="carousel-item">
                         <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/20160818_145705.jpg')}}">
+                        <img src="{{asset('assets/img/bala/22.jpg')}}">
                     </div>
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/20180717_232230.jpg')}}">
+                        <h2>2018</h2>
+                        <img src="{{asset('assets/img/bala/23.jpg')}}">
                     </div>
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/2019-12')}}-07 03.34.05 1.jpg">
+                        <h2>2019</h2>
+                        <img src="{{asset('assets/img/bala/24.jpg')}}">
                     </div>
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/20191218_180101.jpg')}}">
+                        <h2>2020</h2>
+                        <img src="{{asset('assets/img/bala/25.jpg')}}">
                     </div>
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/284130_120053731479653_246697424_n.jpg')}}">
+                        <h2>2021</h2>
+                        <img src="{{asset('assets/img/bala/26.jpg')}}">
                     </div>
                     <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/90.jpg')}}">
-                    </div>
-                    <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/IMG-20190824')}}-WA0031.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/IMG_20160616_172336.jpg')}}">
-                    </div>
-                    <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/IMG_20210320_163351613_BURST000_COVER_COMP.jpg')}}">
-                    </div>
-                    <div class="carousel-item">
-                        <h2>2017</h2>
-                        <img src="{{asset('assets/img/bala/IMG_20210320_163518220.jpg')}}">
+                        <h2>2021</h2>
+                        <img src="{{asset('assets/img/bala/27.jpg')}}">
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-           <p>
-                Palabras de agradecimiento de bala 
-           </p> 
-        </div>
-        
-        
+        <div class="palabras">
+            <p>
+             Hay momentos inolvidables que se te atesoran en el corazón para siempre.
+             Dejo atrás un mundo y entro a uno nuevo; Aunque a veces dudo o temo estoy llena de esperanzas y sueños.
+             Siento alegría y quiero compartirlo rodeada de todos los que quiero. Porque formas parte escencial de mi vida te espero para celebrar ese día tan esperado para mí
+            </p> 
+         </div>
         <div class="ubicaciones">
             <div>
                 <h2>Templo</h2>
