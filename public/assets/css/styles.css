@@ -1,7 +1,7 @@
 *{
- box-sizing:border-box;
- margin:0;
- padding:0;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 body{
     color: #640000;
@@ -30,7 +30,6 @@ h3{
     margin-bottom: 50px;
 }
 .faltan{
-    
     font-size: 50px
 }
 .cuenta-div{
@@ -79,6 +78,50 @@ h3{
     text-align: center;
     margin: 40px auto ;
 }
+
+/*----- Consulta de mesa ----- */
+.consulta{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content:right;
+    gap:20px;
+}
+#code{
+    height: 60px;
+    width: 30%;
+    border-radius: 4px;
+    border: 2px solid #FE0000;
+    color: #640000;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16pt;
+    
+}
+input::placeholder{
+    color: #640000;
+}
+.consulta a{
+    font-size: 15pt;
+    color:  #EACBAE;
+    font-weight: bolder;
+    text-transform: uppercase;
+    height: 64px;
+    background-color: #FE0000;
+    border-radius: 4px;
+    padding: 15px 10px;
+}
+.consulta a:hover{
+    color:#FE0000;
+    background-color: #ECA900;
+}
+/* ? ----- Hastag ----- */
+.hastag{
+    margin: 100px 30px;
+    text-align: center;
+}
+
+
+
 /* ? ----- Footer ----- */
 .footer{
     background: #EACBAE;
@@ -90,18 +133,18 @@ h3{
 }
 @media (min-width: 701px){
     .simply-section{
-    background: #D49377;
-    width: 100px;
-    height: 100px;
-    margin: 0 20px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        background: #D49377;
+        width: 100px;
+        height: 100px;
+        margin: 0 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .contenedor{
-    width: 100%;
-    margin: auto;
+        width: 100%;
+        margin: auto;
     }
     .mis-xv{
         font-size: 90pt;
@@ -118,11 +161,11 @@ h3{
         justify-content: end;
     }
     .familiares{
-    display: flex;
-    justify-content: center;
-    gap:70px;
-    color:#640000;
-    padding: 20px;
+        display: flex;
+        justify-content: center;
+        gap:70px;
+        color:#640000;
+        padding: 20px;
     }
     .familiares-borde{
         border-style: solid;
@@ -164,18 +207,18 @@ h3{
 
 @media (max-width: 700px) and (min-width: 501px){
     .simply-section{
-    background: #D49377;
-    width: 100px;
-    height: 100px;
-    margin: 0 20px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        background: #D49377;
+        width: 100px;
+        height: 100px;
+        margin: 0 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .contenedor{
-    width: 100%;
-    margin: auto;
+        width: 100%;
+        margin: auto;
     }
     .mis-xv{
         font-size: 90pt;
@@ -197,33 +240,33 @@ h3{
         justify-content: center;
     }
     .familiares-borde {
-    border-style: solid;
-    border-color: #640000;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
+        border-style: solid;
+        border-color: #640000;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
     }
     .familiares {
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    color: #640000;
-    padding: 20px;
-    flex-direction: column;
-    margin: 0 100px;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        color: #640000;
+        padding: 20px;
+        flex-direction: column;
+        margin: 0 100px;
     }
     .header{
-    margin: 20px auto;
-    margin-top: 300px;
-    text-align: center;
+        margin: 20px auto;
+        margin-top: 300px;
+        text-align: center;
     }
     .ubicaciones{
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    background-color: #EACBAE;
-    margin: 10px auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        background-color: #EACBAE;
+        margin: 10px auto;
     }
     .ubicaciones div{
         margin: 10px auto;
@@ -241,27 +284,27 @@ h3{
 }
 @media (max-width: 500px){ 
     .simply-section{
-    background: #D49377;
-    width: 100px;
-    height: 100px;
-    margin: 0 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        background: #D49377;
+        width: 100px;
+        height: 100px;
+        margin: 0 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .contenedor{
-    width: 100%;
-    margin: auto;
+        width: 100%;
+        margin: auto;
     }
     .mis-xv{
         font-size: 55pt;
         text-shadow: -1px 0 #640000;
     }
     .header{
-    margin: 20px auto;
-    margin-top: 300px;
-    text-align: center;
+        margin: 20px auto;
+        margin-top: 300px;
+        text-align: center;
     }
     .bala-image-movil{
         width: 310px;
@@ -291,27 +334,27 @@ h3{
       display: none;
     }  
     .familiares-borde {
-    border-style: solid;
-    border-color: #640000;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
+        border-style: solid;
+        border-color: #640000;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
     }
     .familiares {
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    color: #640000;
-    padding: 20px;
-    flex-direction: column;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        color: #640000;
+        padding: 20px;
+        flex-direction: column;
     }
     .ubicaciones{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    background-color: #EACBAE;
-    margin: 10px auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #EACBAE;
+        margin: 10px auto;
     }
     .ubicaciones div{
         margin: 10px auto;
@@ -326,8 +369,18 @@ h3{
         border-radius: 5px;
         width: auto;
     }
+    #code{
+        height: 60px;
+        width: 50%;
+        border-radius: 4px;
+        border: 2px solid #FE0000;
+        color: #640000;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 16pt;
+    }
+    .consulta a{
+        padding-top: 20px;
+        font-size: 10pt;
+    }
 }
-
-
-
 /*=============================================*/

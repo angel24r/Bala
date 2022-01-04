@@ -178,6 +178,16 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4844.918646458447!2d-100.85851882929714!3d20.54950696530355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cbb30758ff75d%3A0x4fbef2320ef3396f!2ssalon%20DURCAL%20eventos!5e0!3m2!1ses!2smx!4v1639620057120!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
+        <div class="consulta">
+            <input type="text" id="code" placeholder="   Escribe tu código" >
+            <a href=""> consulta tu mesa </a>
+        </div>
+        <div class="hastag">
+            <p> Queremos que te la pases increible y poder recordar estos momentos en bellas fotos, usa el hastag</p>
+            <h2>#XValeria</h2>
+            <p> en tus redes sociales y ayudanos a hacer el album más grande</p>
+        </div>
+
     </div>
     <div class="footer">
         <p>Te esperamos (:</p>
