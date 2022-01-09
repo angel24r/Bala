@@ -13,17 +13,12 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function shearch(Request $request){
     	
-			$consultar=mesasModel::all()->where('codigo','=',$request->codigo)->first();
+			$consultar=mesasModel::all()->where('codigo','=',strtoupper($request->codigo))->first();
 			if(isset($consultar))
 			{
 				return view('mesas',compact('consultar'));
 			}else{
     		return redirect()->route('index');
-
 			}
-    		
-    	
-    	
-    	
     }
 }

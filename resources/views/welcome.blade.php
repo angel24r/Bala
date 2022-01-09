@@ -35,8 +35,6 @@
                 <div id="cuenta"></div>
             </div>
         </div>
-
-
        <div class="familiares">
             <div class="familiares-borde">
                 <h2> Mis papás </h2>
