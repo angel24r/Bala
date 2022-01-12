@@ -35,17 +35,15 @@
                 <div id="cuenta"></div>
             </div>
         </div>
-
-
        <div class="familiares">
             <div class="familiares-borde">
                 <h2> Mis papás </h2>
-                <p>Dulce María Pérez Castro</p>
+                <p>Dulce María Pérez Castro</p><hr>
                 <p>Miguel Angel López Díaz</p>
             </div>
             <div class="familiares-borde">
                 <h2> Mis padrinos </h2>
-                <p>Andrea López Díaz</p>
+                <p>Andrea López Díaz</p><hr>
                 <p>Ramón Muñiz López</p>
             </div>
         </div>
@@ -161,20 +159,23 @@
         </div>
         <div class="palabras">
             <p>
-             Hay momentos inolvidables que se te atesoran en el corazón para siempre.
-             Dejo atrás un mundo y entro a uno nuevo; Aunque a veces dudo o temo estoy llena de esperanzas y sueños.
-             Siento alegría y quiero compartirlo rodeada de todos los que quiero. Porque formas parte escencial de mi vida te espero para celebrar ese día tan esperado para mí
+            Hace casi 15 años Dios me regaló la vida, una gran familia y conforme fui creciendo, unos amigos 
+            grandiosos. Con todos he formado recuerdos muy bonitos que han forjado la relación de afecto que les tengo,
+            por eso es un placer para mi invitarte a compartir y celebrar los años que han pasado y los  
+            que me quedan por vivir, que sean el despertar de un largo y dulce camino por la vida lleno de sueños y 
+            alegrías. 
             </p> 
+            <h4>Espero tu compañia </h4>
          </div>
         <div class="ubicaciones">
             <div>
                 <h2>Templo</h2>
-                <p> 15:00</p>
+                <p> 15:00 hrs</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d579.9912335610718!2d-100.82998029737958!3d20.535654453011006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cbae85117159f%3A0xc85b8addc66b3b1e!2sTemplo%20Parroquial%20de%20La%20Divina%20Providencia!5e0!3m2!1ses!2smx!4v1639620138202!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div>
                 <h2>Salón</h2>
-                <p> 17:00</p>
+                <p> 17:00 hrs</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4844.918646458447!2d-100.85851882929714!3d20.54950696530355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cbb30758ff75d%3A0x4fbef2320ef3396f!2ssalon%20DURCAL%20eventos!5e0!3m2!1ses!2smx!4v1639620057120!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
@@ -194,7 +195,7 @@
         </div>
         <div class="hastag">
             <p> Queremos que te la pases increible y poder recordar estos momentos en bellas fotos, usa el hastag</p>
-            <h2>#XValeria</h2>
+            <h2>#conXValeria</h2>
             <p> en tus redes sociales y ayudanos a hacer el album más grande</p>
         </div>
 

@@ -22,35 +22,25 @@
 
 </head>
 <body>
-    <div class="headerdos">
-                <p class="Rouge-text mis-xvdos">Mis XV años</p>
-                <img src="{{asset('assets/img/valeria.png')}}">
-    </div>
-    <div class="mesas-div">
-        <div class="content-mesas">
-            <div>
-                <H4>Personas  {{$consultar->personas}}</H4>
-            </div>
-            <div>
-                <H4>Mesa {{$consultar->mesa}}</H4>
-            </div>            
+        <div class="headerdos">
+            <p class="Rouge-text mis-xvdos">Mis XV años</p>
+            <img src="{{asset('assets/img/valeria.png')}}">
         </div>
-        <div class="content-mesas">
-            <div>
-                <img src="{{asset('assets/img/mesas.JPEG')}}" style="width: 100%;">
+        <div class="mesas-div">
+            <div class="info">
+                <div id="personas">
+                    <h4>Pases: {{$consultar->personas}}</h4>
+                </div>
+                <div id="mesa">
+                    <h4>Mesa: {{$consultar->mesa}}</h4>
+                </div>            
+            </div>
+            <div class="acomodo">
+                <img  class="mesas-div-web" src="{{asset('assets/img/mesas.jpeg')}}">
+                <img  class="mesas-div-movil" src="{{asset('assets/img/mesas-movil.jpeg')}}">
             </div>
         </div>
-    </div>
-
-
+    
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <!--contador-->
-    <script src="{{asset('assets/js/simplyCountdown.min.js')}}"> </script>
-    <script src="{{asset('assets/js/countdown.js')}}"> </script>
-    <!--materialize-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script src="{{asset('assets/js/main.js')}}"></script>
-
 </body>
 </html>
