@@ -13,10 +13,10 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
+
 Route::get('mesa',[Controller::class,'shearch'])->name('shearch');
-Route::get('/', function () {
-    return view('welcome');
-})->name('index');
+
+Route::get('/bala', function () { return view('welcome');})->name('index');
+
+Route::get('/C&T', function () { return view('bodas/bodaCYT');})->name('cecyYtony');

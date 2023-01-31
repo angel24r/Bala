@@ -4,11 +4,17 @@
     padding:0;
 }
 body{
-    color: #640000;
+    color: #ece6e2;
     background-color: #ece6e2;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16pt;
 }
+.logo_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .contenedor{
     width: 100%;
     margin: auto;
@@ -19,7 +25,7 @@ h3{
     font-family: 'Rouge Script', cursive;
 }
 hr{
-    background-color: #640000;
+    background-color: #969494;
     height: 1px;
 }
 .Rouge-text{
@@ -42,7 +48,7 @@ hr{
     font-size: 50px
 }
 .cuenta-div{
-    margin: 90px 0; 
+    margin: 90px 0;
 }
 
 .simply-amount{
@@ -104,7 +110,7 @@ hr{
     color: #640000;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16pt;
-    
+
 }
 input::placeholder{
     color: #640000;
@@ -395,7 +401,7 @@ input{
         align-items: center;
         justify-content: center;
     }
-    
+
     .mis-xv{
         font-size: 90pt;
     }
@@ -429,11 +435,11 @@ input{
         text-align: center;
     }
     .header{
-        margin: 20px auto;
+       /*  margin: 20px auto; */
         text-align: center;
     }
     .headerdos{
-        margin: 20px auto;
+      /*   margin: 20px auto; */
         text-align: center;
     }
     .headerdos img{
@@ -455,7 +461,7 @@ input{
     .ubicaciones div p{
         margin: 10px 0;
     }
-    
+
     .ubicaciones iframe{
         border-radius: 5px;
         width: auto;
@@ -507,7 +513,7 @@ input{
         align-items: center;
         justify-content: center;
     }
-    
+
     .mis-xv{
         font-size: 90pt;
     }
@@ -546,13 +552,13 @@ input{
         flex-direction: row;
     }
     .header{
-        margin: 20px auto;
-        margin-top: 300px;
+       /*  margin: 20px auto; */
+        /* margin-top: 300px; */
         text-align: center;
     }
     .headerdos{
-        margin: 20px auto;
-        margin-top: 100px;
+       /*  margin: 20px auto; */
+       /*  margin-top: 100px; */
         text-align: center;
     }
     .headerdos img{
@@ -611,7 +617,7 @@ input{
         font-size: 30pt;
     }
 }
-@media (max-width: 500px){ 
+@media (max-width: 500px){
     .simply-section{
         background: #D49377;
         width: 100px;
@@ -622,18 +628,18 @@ input{
         align-items: center;
         justify-content: center;
     }
-   
+
     .mis-xv{
         font-size: 55pt;
         text-shadow: -1px 0 #640000;
     }
     .header{
-        margin: 20px auto;
-        margin-top: 300px;
+       /*  margin: 20px auto; */
+       /*  margin-top: 300px; */
         text-align: center;
     }
     .headerdos{
-        margin: 20px auto;
+       /*  margin: 20px auto; */
         text-align: center;
     }
     .headerdos img{
@@ -651,7 +657,7 @@ input{
     }
     .header h3{
         font-size: 35pt !important;
-    }  
+    }
     .header img{
         width: 75%;
     }
@@ -662,10 +668,10 @@ input{
     }
     .simply-word{
         font-size: 15px;
-    } 
+    }
     .bala-image{
       display: none;
-    }  
+    }
     .familiares-borde {
         border-style: solid;
         border-color: #640000;
@@ -719,7 +725,7 @@ input{
     }
     .headerdos p{
         font-size: 40pt;
-    } 
+    }
 
     .mesas-div{
         width: auto;
@@ -732,7 +738,7 @@ input{
     .info{
         width: 100%;
         text-align: center;
-        
+
     }
     .acomodo{
         width: auto;
@@ -750,9 +756,9 @@ input{
         height:100%;
     }
 
-    
 
-}  
+
+}
 @media all and (max-width: 800px) {
   body {
     font-size: 0.9rem;

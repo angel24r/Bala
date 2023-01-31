@@ -8,7 +8,7 @@
     <!-- font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--css-->
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/styles.css">
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,11 +29,11 @@
             <p  style="margin-top: 50px;">Faltan</p>
             <div id="cuenta"></div>
         </div>
-       
+
         <div>
            <p>
-                Palabras de agradecimiento de bala 
-           </p> 
+                Palabras de agradecimiento de bala
+           </p>
         </div>
         <div class="row">
             <div class="col s12">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div id="familiares">
             <div>
                 <h2> Mis papás </h2>
@@ -98,7 +98,7 @@
                 <p>Ramón Muñiz López</p>
             </div>
         </div>
-        
+
         <div class="ubicaciones">
             <div>
                 <h2>Templo</h2>
